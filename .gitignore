@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+logs/
+models/checkpoints/
+models/saved/
+data/raw/
+data/processed/
+data/samples/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
