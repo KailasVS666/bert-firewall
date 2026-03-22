@@ -32,3 +32,29 @@ COLUMN_NAMES = [
     "dst_host_srv_diff_host_rate", "dst_host_serror_rate", "dst_host_srv_serror_rate",
     "dst_host_rerror_rate", "dst_host_srv_rerror_rate", "label", "difficulty"
 ]
+
+ATTACK_LABELS = {
+    "normal": "normal",
+    "neptune": "dos",
+    "warezclient": "r2l",
+    "ipsweep": "probe",
+    "portsweep": "probe",
+    "teardrop": "dos",
+    "nmap": "probe",
+    "satan": "probe",
+    "smurf": "dos",
+    "pod": "dos",
+    "back": "dos",
+    "guess_passwd": "r2l",
+    "ftp_write": "r2l",
+    "multihop": "r2l",
+    "rootkit": "u2r",
+    "buffer_overflow": "u2r",
+    "imap": "r2l",
+    "warezmaster": "r2l",
+    "phf": "r2l",
+    "land": "dos",
+    "loadmodule": "u2r",
+    "spy": "r2l",
+    "perl": "u2r",
+}
