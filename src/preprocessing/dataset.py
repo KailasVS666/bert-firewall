@@ -58,3 +58,13 @@ ATTACK_LABELS = {
     "spy": "r2l",
     "perl": "u2r",
 }
+
+def load_dataset(filepath: str) -> pd.DataFrame:
+    logger.info(f"Loading dataset from {filepath}")
+    df = pd.read_csv(
+        filepath,
+        names=COLUMN_NAMES,
+        header=None,
+    )
+    logger.info(f"Loaded {len(df):,} rows")
+    return df 
