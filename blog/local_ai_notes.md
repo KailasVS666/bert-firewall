@@ -336,12 +336,3 @@ Breakdown:
 - Hardware determines performance  
 - Starting with GGUF + 7B models is the most practical approach  
 
----
-
-## What Comes Next
-
-Now that the concepts are clear, the next step is hands-on.
-
-Running your first model, comparing tools, and observing performance will give you a much better understanding than theory alone.
-
-That’s where things start to get interesting.
