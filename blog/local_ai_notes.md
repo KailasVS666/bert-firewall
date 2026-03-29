@@ -1,4 +1,4 @@
-# Running AI Locally — A Practical Guide (Phase 1 Research)
+# Running AI Locally 
 
 ## Introduction — Why Run AI Locally?
 
