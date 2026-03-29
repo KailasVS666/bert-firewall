@@ -46,7 +46,7 @@ This model is commonly recommended for local use because it balances performance
 
 The model was downloaded directly within LM Studio.
 
-![Downloading model](lm_studio_ss/download.png)
+![Downloading model](lm_studio_ss/download_model.png)
 
 - Size: 4.37 GB  
 - Network speed: ~300 Mbps  
@@ -63,7 +63,7 @@ Observations:
 
 After downloading, the model was loaded into memory using LM Studio’s interface.
 
-![Loading model](lm_studio_ss/load_models.png)
+![Loading model](lm_studio_ss/load_model.png)
 
 - Load time: a few seconds  
 - No noticeable UI lag or freezing  
@@ -114,7 +114,7 @@ This indicates that GPU acceleration was actively used.
 
 ### RAM Usage
 
-![System processes](lm_studio_ss/processes.png)
+![System processes](lm_studio_ss/process.png)
 
 - RAM usage reached ~75% (~12GB out of 16GB) after closing background apps  
 
