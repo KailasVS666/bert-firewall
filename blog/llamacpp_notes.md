@@ -14,7 +14,7 @@ The goal was to understand the setup process, performance, and overall usability
 
 The binaries were downloaded from the official llama.cpp GitHub releases page.
 
-![Download page](llamacpp_ss/release_page.png)
+![Download page](llama_cpp_ss/release_page.png)
 
 Steps followed:
 - Downloaded the Windows CUDA build
@@ -29,7 +29,7 @@ The setup process was manual but straightforward.
 
 After extraction, the folder contained multiple `.exe` and `.dll` files.
 
-![Files](llamacpp_ss/files_llamacpp.png)
+![Files](llama_cpp_ss/files_llamacpp.png)
 
 Important executables:
 - `llama-cli.exe` → used for running models
@@ -71,7 +71,7 @@ llama-cli.exe -m models\Mistral-7B-Instruct-v0.3-Q4_K_M.gguf -ngl 20
 - `-m` → specifies model path  
 - `-ngl 20` → offloads layers to GPU  
 
-![Model loading](llamacpp_ss/model_load.png)
+![Model loading](llama_cpp_ss/model_load.png)
 
 Load time:
 - ~10–15 seconds  
@@ -89,7 +89,7 @@ Explain recursion simply
 ```
 
 
-![CLI output](llamacpp_ss/cli_output.png)
+![CLI output](llama_cpp_ss/cli_output.png)
 
 The CLI output also displays real-time performance metrics such as tokens per second, giving better visibility into how the model is performing during inference.
 
