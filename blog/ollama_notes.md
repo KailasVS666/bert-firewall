@@ -14,6 +14,7 @@ The goal was to understand:
 - Inference performance
 - Practical trade-offs between model size and efficiency
 
+![UI](ollama_ss/ollama_UI.png)
 ---
 
 ## System Configuration
@@ -23,10 +24,10 @@ The goal was to understand:
 - GPU: Not used (CPU-only inference)
 - OS: Windows
 
-Processor	Snapdragon(R) X - X126100 - Qualcomm(R) Oryon(TM) CPU (2.96 GHz)
-Installed RAM	16.0 GB (15.6 GB usable)
-System type	64-bit operating system, ARM-based processor
-Edition	Windows 11 Home Single Language
+ - Processor	Snapdragon(R) X - X126100 - Qualcomm(R) Oryon(TM) CPU (2.96 GHz)
+ - Installed RAM	16.0 GB (15.6 GB usable)
+ - System type	64-bit operating system, ARM-based processor
+ - Edition	Windows 11 Home Single Language
 
 ---
 
@@ -69,6 +70,10 @@ This allowed real-time observation during both idle and active inference phases.
 - Idle: ~0–1%
 - Peak: ~350–390%
 
+![CPU](ollama_ss/ollama_phi_cpu.png)
+![GPU](ollama_ss/ollama_phi_gpu.png)
+![NPU](ollama_ss/ollama_phi_npu.png)
+
 ### Behavior
 - Stable memory usage
 - Moderate CPU spikes during inference
@@ -84,6 +89,10 @@ This allowed real-time observation during both idle and active inference phases.
 ### CPU Usage
 - Idle: ~0–1%
 - Peak: ~350–400%
+
+![CPU](ollama_ss/ollama_gemma3_cpu.png)
+![GPU](ollama_ss/ollama_gemma3_gpu.png)
+![NPU](ollama_ss/ollama_gemma3_npu.png)
 
 ### Behavior
 - Significantly higher memory usage
