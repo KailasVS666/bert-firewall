@@ -23,6 +23,11 @@ The goal was to understand:
 - GPU: Not used (CPU-only inference)
 - OS: Windows
 
+Processor	Snapdragon(R) X - X126100 - Qualcomm(R) Oryon(TM) CPU (2.96 GHz)
+Installed RAM	16.0 GB (15.6 GB usable)
+System type	64-bit operating system, ARM-based processor
+Edition	Windows 11 Home Single Language
+
 ---
 
 ## Tools Used
@@ -152,24 +157,6 @@ From logs:
 
 ---
 
-## Comparison with Other Ecosystems
-
-### Ollama
-- Ease of use: High
-- Performance: Medium
-- Control: Low
-
-### llama.cpp
-- Ease of use: Medium
-- Performance: High
-- Control: High
-
-### Hugging Face
-- Ease of use: Medium
-- Performance (CPU): Low
-- Flexibility: High
-
----
 
 ## Overall Experience
 
@@ -197,12 +184,3 @@ Ollama is an effective entry point for local AI experimentation.
 - **Gemma3** is better for more complex reasoning tasks
 
 For performance-critical systems (like your project), transitioning to **llama.cpp** for optimized inference would be the next logical step.
-
----
-
-## Next Steps
-
-- Benchmark using llama.cpp
-- Compare token generation speed
-- Optimize prompts for task-specific usage
-- Integrate with Python API and C system
