@@ -191,5 +191,3 @@ Ollama is an effective entry point for local AI experimentation.
 
 - **Phi** is suitable for fast, lightweight tasks
 - **Gemma3** is better for more complex reasoning tasks
-
-For performance-critical systems (like your project), transitioning to **llama.cpp** for optimized inference would be the next logical step.
