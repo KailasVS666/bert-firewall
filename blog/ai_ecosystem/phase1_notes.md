@@ -12,10 +12,16 @@ In an AI model, everything — weights, inputs, outputs — is a tensor.
 
 ## How Tensors Live in Memory
 Memory is a flat line of boxes. A 2D matrix gets flattened into a 1D array (row-major order).
+```
 [1, 2, 3, 4, 5, 6]
-0  1  2  3  4  5
+ 0  1  2  3  4  5
+```
+
 To find element at row `i`, column `j`:
+```
 index = i * number_of_columns + j
+```
+
 ---
 
 ## The Tensor Class
@@ -36,6 +42,8 @@ Every Tensor stores 3 things:
 | Copy assignment | yes | yes | no |
 | Move constructor | no | no | yes |
 | Move assignment | no | yes | yes |
+
+---
 
 ### Constructor
 Allocates heap memory and zeros everything out.
